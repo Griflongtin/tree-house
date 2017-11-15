@@ -80,3 +80,37 @@ body {
   padding: 5px;
   margin: 10px 10px 0px 20px;
 }
+
+.course::after {
+  content: "Course"
+}
+
+.bottom-box {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.bottom-box img {
+  float: right;
+  margin-top: 45px;
+}
+
+.bottom-box-img-one {
+  margin: 5px;
+}
+
+.bottom-box-img-two.trek {
+  margin-right: 25px;
+  margin-top: 40px;
+  width: 50px;
+}
+
+.bubble {
+  float: left;
+  margin: 50px 10px 0px;
+  border-radius: 50px;
+  border-color: #bfbfbf;
+  border-style: solid;
+  border-width: 1px;
+  padding: 6px 10px;
+}
