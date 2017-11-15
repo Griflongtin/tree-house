@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #edeff0;
+}
+
+.container {
+  padding: 30px;
+}
+
+.nav-bar img, .nav-bar h2, .nav-bar h2 img {
+  width: 80px;
+  filter: invert(75%);
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#img1, #img2 {
+  border-left: 2px;
+  border-left-color: black;
+  border-left-style: solid;
+}
+
+#img3 {
+  margin-left: -40px;
+}
+
+.nav-bar h1 {
+  font-family: 'Ubuntu', sans-serif;
+  float: left;
+}
+
+.nav-bar h2 {
+  text-align: center;
+  padding-right: 0px;
+}
+
+.nav-bar {
+  border-bottom: 2px;
+  border-bottom-style: inset;
+  border-bottom-color: #bfbfbf;
+  display: table;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.java-course .top-box {
+  background-color: #259775;
+}
+
+.box {
+  width: 520px;
+  height: 310px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+}
+
+.box img {
+  width: 40px;
+}
+
+.top-box {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.top-box span {
+  float: right;
+  padding: 20px;
+}
+
+.top-box img {
+  padding: 5px;
+  margin: 10px 10px 0px 20px;
+}
